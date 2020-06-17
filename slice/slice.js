@@ -15,9 +15,12 @@ const aNumerosV2 = aNumeros.slice(2,3);
 
 
 // 3 - Hacemos una copia superficial del array
-const aNumerosV3 = aNumeros.slice(0,aNumeros.length);
+const aNumerosV3a = aNumeros.slice(0,aNumeros.length);
 
-// aNumerosV3 --> [0,1,2,3,4,5,6,7]
+// También puede ser
+const aNumerosV3b = aNumeros.slice();
+
+// aNumerosV3a o aNumerosV3b --> [0,1,2,3,4,5,6,7]
 
 
 
